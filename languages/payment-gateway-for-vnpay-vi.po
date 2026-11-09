@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway for VNPAY 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: payment-gateway-for-vnpay\n"
+
+msgid "VNPAY online payment gateway for WooCommerce"
+msgstr "Cổng thanh toán trực tuyến VNPAY cho WooCommerce"
+
+msgid "Main"
+msgstr "Chung"
+
+msgid "Enable/Disable"
+msgstr "Bật/Tắt"
+
+msgid "Enable VNPAY payment gateway"
+msgstr "Bật cổng thanh toán VNPAY"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Payment method name shown at checkout."
+msgstr "Tên phương thức thanh toán hiển thị ở trang thanh toán."
+
+msgid "Description"
+msgstr "Mô tả"
+
+msgid "Payment method description shown to the customer."
+msgstr "Mô tả phương thức thanh toán hiển thị cho khách hàng."
+
+msgid "Secure card payment via VNPAY."
+msgstr "Thanh toán an toàn bằng thẻ qua VNPAY."
+
+msgid "VNPAY credentials"
+msgstr "Thông tin xác thực VNPAY"
+
+msgid "VNPAY issues different TmnCode and HashSecret values for the sandbox and for live mode. The ones matching the selected mode are used."
+msgstr "VNPAY cấp TmnCode và HashSecret khác nhau cho môi trường thử nghiệm (sandbox) và môi trường thực. Plugin dùng thông tin tương ứng với chế độ đã chọn."
+
+msgid "Test mode (Sandbox)"
+msgstr "Chế độ thử nghiệm (Sandbox)"
+
+msgid "Use the VNPAY test gateway"
+msgstr "Sử dụng cổng thử nghiệm của VNPAY"
+
+msgid "Sandbox: Merchant ID (TmnCode)"
+msgstr "Sandbox: Mã đơn vị (TmnCode)"
+
+msgid "Terminal ID from the VNPAY sandbox email."
+msgstr "Mã terminal trong email sandbox của VNPAY."
+
+msgid "Sandbox: Secret Key (HashSecret)"
+msgstr "Sandbox: Khóa bí mật (HashSecret)"
+
+msgid "Sandbox secret key used to sign requests."
+msgstr "Khóa bí mật sandbox dùng để ký yêu cầu."
+
+msgid "Live: Merchant ID (TmnCode)"
+msgstr "Thực tế: Mã đơn vị (TmnCode)"
+
+msgid "Live terminal ID issued by VNPAY after onboarding."
+msgstr "Mã terminal thực do VNPAY cấp sau khi đăng ký thành công."
+
+msgid "Live: Secret Key (HashSecret)"
+msgstr "Thực tế: Khóa bí mật (HashSecret)"
+
+msgid "Live secret key used to sign requests."
+msgstr "Khóa bí mật thực dùng để ký yêu cầu."
+
+msgid "Payment parameters"
+msgstr "Tham số thanh toán"
+
+msgid "Payment page language"
+msgstr "Ngôn ngữ trang thanh toán"
+
+msgid "Language of the VNPAY page the customer is sent to."
+msgstr "Ngôn ngữ của trang VNPAY mà khách hàng được chuyển đến."
+
+msgid "Default payment method"
+msgstr "Phương thức thanh toán mặc định"
+
+msgid "If a specific method is chosen, the customer goes straight to it and skips the selection on the VNPAY side."
+msgstr "Nếu chọn một phương thức cụ thể, khách hàng sẽ vào thẳng phương thức đó và bỏ qua bước chọn trên trang VNPAY."
+
+msgid "Customer chooses on the VNPAY page"
+msgstr "Khách hàng chọn trên trang VNPAY"
+
+msgid "QR code (VNPAYQR)"
+msgstr "Mã QR (VNPAYQR)"
+
+msgid "Vietnamese card or account (VNBANK)"
+msgstr "Thẻ hoặc tài khoản ngân hàng Việt Nam (VNBANK)"
+
+msgid "International card (INTCARD)"
+msgstr "Thẻ quốc tế (INTCARD)"
+
+msgid "Order category (vnp_OrderType)"
+msgstr "Loại hàng hóa (vnp_OrderType)"
+
+msgid "Category code from the VNPAY documentation. The value \"other\" fits any store."
+msgstr "Mã loại hàng hóa theo tài liệu của VNPAY. Giá trị \"other\" phù hợp với mọi cửa hàng."
+
+msgid "Payment description (vnp_OrderInfo)"
+msgstr "Nội dung thanh toán (vnp_OrderInfo)"
+
+msgid "Text placed before the order number. Use Latin letters without diacritics."
+msgstr "Nội dung đặt trước mã đơn hàng. Dùng chữ Latin không dấu."
+
+msgid "Payment window, minutes"
+msgstr "Thời hạn thanh toán (phút)"
+
+msgid "How many minutes the payment link stays valid (5 to 1440)."
+msgstr "Số phút liên kết thanh toán còn hiệu lực (từ 5 đến 1440)."
+
+msgid "Redirects after payment"
+msgstr "Chuyển hướng sau thanh toán"
+
+msgid "URLs must belong to your site. If empty, the standard WooCommerce pages are used."
+msgstr "Địa chỉ phải thuộc website của bạn. Nếu để trống, sẽ dùng các trang mặc định của WooCommerce."
+
+msgid "Success URL"
+msgstr "Địa chỉ khi thanh toán thành công"
+
+msgid "Default: the \"Order received\" page."
+msgstr "Mặc định: trang \"Đơn hàng đã được nhận\"."
+
+msgid "Failure URL"
+msgstr "Địa chỉ khi thanh toán thất bại"
+
+msgid "Default: the order payment page, where the customer can try again."
+msgstr "Mặc định: trang thanh toán đơn hàng, nơi khách hàng có thể thử lại."
+
+msgid "USD price display"
+msgstr "Hiển thị giá bằng USD"
+
+msgid "Shows an approximate dollar amount next to prices in VND. For information only: the customer is always charged in VND."
+msgstr "Hiển thị số tiền USD ước tính bên cạnh giá VND. Chỉ mang tính tham khảo: khách hàng luôn thanh toán bằng VND."
+
+msgid "Show USD next to VND"
+msgstr "Hiển thị USD cạnh VND"
+
+msgid "Show the price in USD next to the price in VND"
+msgstr "Hiển thị giá USD bên cạnh giá VND"
+
+msgid "Exchange rate (VND per 1 USD)"
+msgstr "Tỷ giá (VND cho 1 USD)"
+
+msgid "Enter the rate manually, for example 25000. Nothing is shown while the field is empty."
+msgstr "Nhập tỷ giá thủ công, ví dụ 25000. Nếu để trống, sẽ không hiển thị gì."
+
+msgid "Debugging"
+msgstr "Gỡ lỗi"
+
+msgid "Detailed log"
+msgstr "Nhật ký chi tiết"
+
+msgid "Write requests to the WooCommerce log (source: vnpay)"
+msgstr "Ghi các yêu cầu vào nhật ký WooCommerce (nguồn: vnpay)"
+
+msgid "Enable only while testing. Secret keys and signatures are never logged."
+msgstr "Chỉ bật khi đang thử nghiệm. Khóa bí mật và chữ ký không bao giờ được ghi lại."
+
+msgid "VNPAY works only with VND."
+msgstr "VNPAY chỉ hoạt động với VND."
+
+#, php-format
+msgid "The store currency is %s, so the gateway is hidden at checkout. Change it in WooCommerce → Settings → General."
+msgstr "Tiền tệ của cửa hàng là %s nên cổng thanh toán bị ẩn ở trang thanh toán. Hãy đổi trong WooCommerce → Cài đặt → Chung."
+
+#, php-format
+msgid "The Checkout page currently uses the Checkout block, so VNPAY will not appear at checkout. Replace the block with the %s shortcode."
+msgstr "Trang Thanh toán hiện đang dùng khối Checkout nên VNPAY sẽ không hiển thị ở bước thanh toán. Hãy thay khối đó bằng shortcode %s."
+
+#, php-format
+msgid "This gateway supports only the classic checkout. On the Checkout page, use the %s shortcode instead of the Checkout block."
+msgstr "Cổng thanh toán này chỉ hỗ trợ trang thanh toán dạng cổ điển. Trên trang Thanh toán, hãy dùng shortcode %s thay cho khối Checkout."
+
+msgid "IPN URL (set it in the VNPAY merchant portal):"
+msgstr "IPN URL (khai báo trong cổng quản trị merchant của VNPAY):"
+
+msgid "The Return URL is generated automatically:"
+msgstr "Return URL được tạo tự động:"
+
+msgid "The site must be reachable from the internet over HTTPS, otherwise VNPAY cannot deliver the IPN."
+msgstr "Website phải truy cập được từ internet qua HTTPS, nếu không VNPAY không thể gửi IPN."
+
+msgid "Order not found."
+msgstr "Không tìm thấy đơn hàng."
+
+msgid "VNPAY payment is temporarily unavailable. Please choose another method."
+msgstr "Thanh toán VNPAY tạm thời không khả dụng. Vui lòng chọn phương thức khác."
+
+#, php-format
+msgid "Customer redirected to VNPAY. Reference: %s"
+msgstr "Khách hàng đã được chuyển đến VNPAY. Mã tham chiếu: %s"
+
+msgid "Could not verify the payment data. If you were charged, please contact the store."
+msgstr "Không thể xác minh dữ liệu thanh toán. Nếu bạn đã bị trừ tiền, vui lòng liên hệ cửa hàng."
+
+#, php-format
+msgid "Payment completed via VNPAY (IPN). Transaction: %1$s, bank: %2$s."
+msgstr "Thanh toán thành công qua VNPAY (IPN). Giao dịch: %1$s, ngân hàng: %2$s."
+
+#, php-format
+msgid "Payment declined by VNPAY. Error code: %s"
+msgstr "VNPAY từ chối thanh toán. Mã lỗi: %s"
+
+msgid "The bank flagged the payment as suspicious. Please contact your bank or choose another method."
+msgstr "Ngân hàng nghi ngờ giao dịch bất thường. Vui lòng liên hệ ngân hàng hoặc chọn phương thức khác."
+
+msgid "Internet Banking is not enabled for this card or account."
+msgstr "Thẻ hoặc tài khoản chưa đăng ký dịch vụ Internet Banking."
+
+msgid "The card details were entered incorrectly more than three times."
+msgstr "Bạn đã nhập sai thông tin thẻ quá ba lần."
+
+msgid "The payment window has expired. Please start the payment again."
+msgstr "Đã hết thời gian thanh toán. Vui lòng thực hiện lại."
+
+msgid "The card or account is locked."
+msgstr "Thẻ hoặc tài khoản đã bị khóa."
+
+msgid "Incorrect one-time password (OTP)."
+msgstr "Mật khẩu một lần (OTP) không đúng."
+
+msgid "You cancelled the payment."
+msgstr "Bạn đã hủy giao dịch."
+
+msgid "Insufficient funds."
+msgstr "Tài khoản không đủ số dư."
+
+msgid "The daily transaction limit has been exceeded."
+msgstr "Đã vượt quá hạn mức giao dịch trong ngày."
+
+msgid "The bank is under maintenance. Please try again later."
+msgstr "Ngân hàng đang bảo trì. Vui lòng thử lại sau."
+
+msgid "The payment password was entered incorrectly too many times."
+msgstr "Bạn đã nhập sai mật khẩu thanh toán quá nhiều lần."
+
+msgid "The payment was not completed. Please try again or choose another payment method."
+msgstr "Thanh toán chưa hoàn tất. Vui lòng thử lại hoặc chọn phương thức thanh toán khác."
+
+msgid "Payment Gateway for VNPAY requires WooCommerce to be active."
+msgstr "Payment Gateway for VNPAY yêu cầu phải kích hoạt WooCommerce."
+
+msgid "Settings"
+msgstr "Cài đặt"

@@ -1,0 +1,8 @@
+# Files excluded from the ZIP you submit to WordPress.org
+.git
+.github
+.gitignore
+.distignore
+.wordpress-org
+README.md
+*.zip

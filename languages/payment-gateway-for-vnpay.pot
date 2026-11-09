@@ -1,0 +1,252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway for VNPAY 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: payment-gateway-for-vnpay\n"
+
+msgid "VNPAY online payment gateway for WooCommerce"
+msgstr ""
+
+msgid "Main"
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Enable VNPAY payment gateway"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Payment method name shown at checkout."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Payment method description shown to the customer."
+msgstr ""
+
+msgid "Secure card payment via VNPAY."
+msgstr ""
+
+msgid "VNPAY credentials"
+msgstr ""
+
+msgid "VNPAY issues different TmnCode and HashSecret values for the sandbox and for live mode. The ones matching the selected mode are used."
+msgstr ""
+
+msgid "Test mode (Sandbox)"
+msgstr ""
+
+msgid "Use the VNPAY test gateway"
+msgstr ""
+
+msgid "Sandbox: Merchant ID (TmnCode)"
+msgstr ""
+
+msgid "Terminal ID from the VNPAY sandbox email."
+msgstr ""
+
+msgid "Sandbox: Secret Key (HashSecret)"
+msgstr ""
+
+msgid "Sandbox secret key used to sign requests."
+msgstr ""
+
+msgid "Live: Merchant ID (TmnCode)"
+msgstr ""
+
+msgid "Live terminal ID issued by VNPAY after onboarding."
+msgstr ""
+
+msgid "Live: Secret Key (HashSecret)"
+msgstr ""
+
+msgid "Live secret key used to sign requests."
+msgstr ""
+
+msgid "Payment parameters"
+msgstr ""
+
+msgid "Payment page language"
+msgstr ""
+
+msgid "Language of the VNPAY page the customer is sent to."
+msgstr ""
+
+msgid "Default payment method"
+msgstr ""
+
+msgid "If a specific method is chosen, the customer goes straight to it and skips the selection on the VNPAY side."
+msgstr ""
+
+msgid "Customer chooses on the VNPAY page"
+msgstr ""
+
+msgid "QR code (VNPAYQR)"
+msgstr ""
+
+msgid "Vietnamese card or account (VNBANK)"
+msgstr ""
+
+msgid "International card (INTCARD)"
+msgstr ""
+
+msgid "Order category (vnp_OrderType)"
+msgstr ""
+
+msgid "Category code from the VNPAY documentation. The value \"other\" fits any store."
+msgstr ""
+
+msgid "Payment description (vnp_OrderInfo)"
+msgstr ""
+
+msgid "Text placed before the order number. Use Latin letters without diacritics."
+msgstr ""
+
+msgid "Payment window, minutes"
+msgstr ""
+
+msgid "How many minutes the payment link stays valid (5 to 1440)."
+msgstr ""
+
+msgid "Redirects after payment"
+msgstr ""
+
+msgid "URLs must belong to your site. If empty, the standard WooCommerce pages are used."
+msgstr ""
+
+msgid "Success URL"
+msgstr ""
+
+msgid "Default: the \"Order received\" page."
+msgstr ""
+
+msgid "Failure URL"
+msgstr ""
+
+msgid "Default: the order payment page, where the customer can try again."
+msgstr ""
+
+msgid "USD price display"
+msgstr ""
+
+msgid "Shows an approximate dollar amount next to prices in VND. For information only: the customer is always charged in VND."
+msgstr ""
+
+msgid "Show USD next to VND"
+msgstr ""
+
+msgid "Show the price in USD next to the price in VND"
+msgstr ""
+
+msgid "Exchange rate (VND per 1 USD)"
+msgstr ""
+
+msgid "Enter the rate manually, for example 25000. Nothing is shown while the field is empty."
+msgstr ""
+
+msgid "Debugging"
+msgstr ""
+
+msgid "Detailed log"
+msgstr ""
+
+msgid "Write requests to the WooCommerce log (source: vnpay)"
+msgstr ""
+
+msgid "Enable only while testing. Secret keys and signatures are never logged."
+msgstr ""
+
+msgid "VNPAY works only with VND."
+msgstr ""
+
+#, php-format
+msgid "The store currency is %s, so the gateway is hidden at checkout. Change it in WooCommerce → Settings → General."
+msgstr ""
+
+#, php-format
+msgid "The Checkout page currently uses the Checkout block, so VNPAY will not appear at checkout. Replace the block with the %s shortcode."
+msgstr ""
+
+#, php-format
+msgid "This gateway supports only the classic checkout. On the Checkout page, use the %s shortcode instead of the Checkout block."
+msgstr ""
+
+msgid "IPN URL (set it in the VNPAY merchant portal):"
+msgstr ""
+
+msgid "The Return URL is generated automatically:"
+msgstr ""
+
+msgid "The site must be reachable from the internet over HTTPS, otherwise VNPAY cannot deliver the IPN."
+msgstr ""
+
+msgid "Order not found."
+msgstr ""
+
+msgid "VNPAY payment is temporarily unavailable. Please choose another method."
+msgstr ""
+
+#, php-format
+msgid "Customer redirected to VNPAY. Reference: %s"
+msgstr ""
+
+msgid "Could not verify the payment data. If you were charged, please contact the store."
+msgstr ""
+
+#, php-format
+msgid "Payment completed via VNPAY (IPN). Transaction: %1$s, bank: %2$s."
+msgstr ""
+
+#, php-format
+msgid "Payment declined by VNPAY. Error code: %s"
+msgstr ""
+
+msgid "The bank flagged the payment as suspicious. Please contact your bank or choose another method."
+msgstr ""
+
+msgid "Internet Banking is not enabled for this card or account."
+msgstr ""
+
+msgid "The card details were entered incorrectly more than three times."
+msgstr ""
+
+msgid "The payment window has expired. Please start the payment again."
+msgstr ""
+
+msgid "The card or account is locked."
+msgstr ""
+
+msgid "Incorrect one-time password (OTP)."
+msgstr ""
+
+msgid "You cancelled the payment."
+msgstr ""
+
+msgid "Insufficient funds."
+msgstr ""
+
+msgid "The daily transaction limit has been exceeded."
+msgstr ""
+
+msgid "The bank is under maintenance. Please try again later."
+msgstr ""
+
+msgid "The payment password was entered incorrectly too many times."
+msgstr ""
+
+msgid "The payment was not completed. Please try again or choose another payment method."
+msgstr ""
+
+msgid "Payment Gateway for VNPAY requires WooCommerce to be active."
+msgstr ""
+
+msgid "Settings"
+msgstr ""

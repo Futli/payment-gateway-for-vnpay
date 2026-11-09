@@ -1,0 +1,253 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Payment Gateway for VNPAY 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: payment-gateway-for-vnpay\n"
+
+msgid "VNPAY online payment gateway for WooCommerce"
+msgstr "Шлюз онлайн-оплаты VNPAY для WooCommerce"
+
+msgid "Main"
+msgstr "Основное"
+
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+msgid "Enable VNPAY payment gateway"
+msgstr "Включить платежный шлюз VNPAY"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Payment method name shown at checkout."
+msgstr "Название метода оплаты на странице оформления заказа."
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Payment method description shown to the customer."
+msgstr "Описание метода оплаты, видимое клиенту."
+
+msgid "Secure card payment via VNPAY."
+msgstr "Безопасная оплата банковской картой через VNPAY."
+
+msgid "VNPAY credentials"
+msgstr "Реквизиты VNPAY"
+
+msgid "VNPAY issues different TmnCode and HashSecret values for the sandbox and for live mode. The ones matching the selected mode are used."
+msgstr "Для песочницы и боевого режима VNPAY выдаёт разные TmnCode и HashSecret. Используются те, что соответствуют выбранному режиму."
+
+msgid "Test mode (Sandbox)"
+msgstr "Тестовый режим (песочница)"
+
+msgid "Use the VNPAY test gateway"
+msgstr "Использовать тестовый шлюз VNPAY"
+
+msgid "Sandbox: Merchant ID (TmnCode)"
+msgstr "Песочница: Merchant ID (TmnCode)"
+
+msgid "Terminal ID from the VNPAY sandbox email."
+msgstr "Идентификатор терминала из письма песочницы VNPAY."
+
+msgid "Sandbox: Secret Key (HashSecret)"
+msgstr "Песочница: Secret Key (HashSecret)"
+
+msgid "Sandbox secret key used to sign requests."
+msgstr "Секретный ключ песочницы для формирования подписи."
+
+msgid "Live: Merchant ID (TmnCode)"
+msgstr "Боевой режим: Merchant ID (TmnCode)"
+
+msgid "Live terminal ID issued by VNPAY after onboarding."
+msgstr "Боевой идентификатор терминала, выданный VNPAY после подключения."
+
+msgid "Live: Secret Key (HashSecret)"
+msgstr "Боевой режим: Secret Key (HashSecret)"
+
+msgid "Live secret key used to sign requests."
+msgstr "Боевой секретный ключ для формирования подписи."
+
+msgid "Payment parameters"
+msgstr "Параметры платежа"
+
+msgid "Payment page language"
+msgstr "Язык страницы оплаты"
+
+msgid "Language of the VNPAY page the customer is sent to."
+msgstr "Язык страницы VNPAY, на которую попадает клиент."
+
+msgid "Default payment method"
+msgstr "Способ оплаты по умолчанию"
+
+msgid "If a specific method is chosen, the customer goes straight to it and skips the selection on the VNPAY side."
+msgstr "Если выбран конкретный способ, клиент сразу попадает на него, минуя выбор на стороне VNPAY."
+
+msgid "Customer chooses on the VNPAY page"
+msgstr "Клиент выбирает на странице VNPAY"
+
+msgid "QR code (VNPAYQR)"
+msgstr "QR-код (VNPAYQR)"
+
+msgid "Vietnamese card or account (VNBANK)"
+msgstr "Вьетнамская карта или счёт (VNBANK)"
+
+msgid "International card (INTCARD)"
+msgstr "Международная карта (INTCARD)"
+
+msgid "Order category (vnp_OrderType)"
+msgstr "Категория товара (vnp_OrderType)"
+
+msgid "Category code from the VNPAY documentation. The value \"other\" fits any store."
+msgstr "Код категории из документации VNPAY. Значение \"other\" подходит для любого магазина."
+
+msgid "Payment description (vnp_OrderInfo)"
+msgstr "Описание платежа (vnp_OrderInfo)"
+
+msgid "Text placed before the order number. Use Latin letters without diacritics."
+msgstr "Текст перед номером заказа. Пишите латиницей без диакритики."
+
+msgid "Payment window, minutes"
+msgstr "Срок оплаты, минут"
+
+msgid "How many minutes the payment link stays valid (5 to 1440)."
+msgstr "Через сколько минут ссылка на оплату перестанет работать (от 5 до 1440)."
+
+msgid "Redirects after payment"
+msgstr "Переадресация после оплаты"
+
+msgid "URLs must belong to your site. If empty, the standard WooCommerce pages are used."
+msgstr "Адреса должны принадлежать вашему сайту. Если поля пустые, используются стандартные страницы WooCommerce."
+
+msgid "Success URL"
+msgstr "Адрес после успешной оплаты"
+
+msgid "Default: the \"Order received\" page."
+msgstr "По умолчанию: страница «Заказ принят»."
+
+msgid "Failure URL"
+msgstr "Адрес после неудачной оплаты"
+
+msgid "Default: the order payment page, where the customer can try again."
+msgstr "По умолчанию: страница оплаты заказа, где клиент может повторить попытку."
+
+msgid "USD price display"
+msgstr "Отображение цен в USD"
+
+msgid "Shows an approximate dollar amount next to prices in VND. For information only: the customer is always charged in VND."
+msgstr "Показывает примерную сумму в долларах рядом с ценами в VND. Только для справки: клиент всегда платит в VND."
+
+msgid "Show USD next to VND"
+msgstr "Показывать USD рядом с VND"
+
+msgid "Show the price in USD next to the price in VND"
+msgstr "Показывать цену в долларах рядом с ценой в VND"
+
+msgid "Exchange rate (VND per 1 USD)"
+msgstr "Курс (VND за 1 USD)"
+
+msgid "Enter the rate manually, for example 25000. Nothing is shown while the field is empty."
+msgstr "Введите курс вручную, например 25000. Пока поле пустое, ничего не показывается."
+
+msgid "Debugging"
+msgstr "Отладка"
+
+msgid "Detailed log"
+msgstr "Подробный лог"
+
+msgid "Write requests to the WooCommerce log (source: vnpay)"
+msgstr "Записывать запросы в журнал WooCommerce (источник: vnpay)"
+
+msgid "Enable only while testing. Secret keys and signatures are never logged."
+msgstr "Включайте только на время тестов. Секретные ключи и подписи в журнал не пишутся."
+
+msgid "VNPAY works only with VND."
+msgstr "VNPAY работает только с VND."
+
+#, php-format
+msgid "The store currency is %s, so the gateway is hidden at checkout. Change it in WooCommerce → Settings → General."
+msgstr "Сейчас в магазине валюта %s, поэтому шлюз не показывается на чекауте. Измените её в WooCommerce → Настройки → Общие."
+
+#, php-format
+msgid "The Checkout page currently uses the Checkout block, so VNPAY will not appear at checkout. Replace the block with the %s shortcode."
+msgstr "Страница оформления заказа сейчас использует блок Checkout, поэтому VNPAY не появится при оплате. Замените блок на шорткод %s."
+
+#, php-format
+msgid "This gateway supports only the classic checkout. On the Checkout page, use the %s shortcode instead of the Checkout block."
+msgstr "Шлюз поддерживает только классический чекаут. На странице оформления заказа используйте шорткод %s вместо блока Checkout."
+
+msgid "IPN URL (set it in the VNPAY merchant portal):"
+msgstr "IPN URL (укажите в кабинете VNPAY):"
+
+msgid "The Return URL is generated automatically:"
+msgstr "Return URL формируется автоматически:"
+
+msgid "The site must be reachable from the internet over HTTPS, otherwise VNPAY cannot deliver the IPN."
+msgstr "Сайт должен быть доступен снаружи по HTTPS, иначе VNPAY не сможет отправить IPN."
+
+msgid "Order not found."
+msgstr "Заказ не найден."
+
+msgid "VNPAY payment is temporarily unavailable. Please choose another method."
+msgstr "Оплата через VNPAY временно недоступна. Выберите другой способ."
+
+#, php-format
+msgid "Customer redirected to VNPAY. Reference: %s"
+msgstr "Клиент перенаправлен на оплату VNPAY. Референс: %s"
+
+msgid "Could not verify the payment data. If you were charged, please contact the store."
+msgstr "Не удалось подтвердить данные платежа. Если деньги списаны, свяжитесь с магазином."
+
+#, php-format
+msgid "Payment completed via VNPAY (IPN). Transaction: %1$s, bank: %2$s."
+msgstr "Оплата успешно проведена через VNPAY (IPN). Транзакция: %1$s, банк: %2$s."
+
+#, php-format
+msgid "Payment declined by VNPAY. Error code: %s"
+msgstr "Платеж отклонен шлюзом VNPAY. Код ошибки: %s"
+
+msgid "The bank flagged the payment as suspicious. Please contact your bank or choose another method."
+msgstr "Платёж заблокирован банком как подозрительный. Свяжитесь с банком или выберите другой способ."
+
+msgid "Internet Banking is not enabled for this card or account."
+msgstr "У карты или счёта не подключён Internet Banking."
+
+msgid "The card details were entered incorrectly more than three times."
+msgstr "Данные карты введены неверно более трёх раз."
+
+msgid "The payment window has expired. Please start the payment again."
+msgstr "Время оплаты истекло. Оформите оплату заново."
+
+msgid "The card or account is locked."
+msgstr "Карта или счёт заблокированы."
+
+msgid "Incorrect one-time password (OTP)."
+msgstr "Неверный одноразовый пароль (OTP)."
+
+msgid "You cancelled the payment."
+msgstr "Вы отменили оплату."
+
+msgid "Insufficient funds."
+msgstr "Недостаточно средств на счёте."
+
+msgid "The daily transaction limit has been exceeded."
+msgstr "Превышен дневной лимит операций."
+
+msgid "The bank is under maintenance. Please try again later."
+msgstr "Банк на техническом обслуживании. Попробуйте позже."
+
+msgid "The payment password was entered incorrectly too many times."
+msgstr "Пароль платежа введён неверно слишком много раз."
+
+msgid "The payment was not completed. Please try again or choose another payment method."
+msgstr "Оплата не прошла. Попробуйте ещё раз или выберите другой способ оплаты."
+
+msgid "Payment Gateway for VNPAY requires WooCommerce to be active."
+msgstr "Payment Gateway for VNPAY требует активный плагин WooCommerce."
+
+msgid "Settings"
+msgstr "Настройки"

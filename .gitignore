@@ -1,0 +1,25 @@
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+wp-config.php
+
+# Logs and local data
+*.log
+debug.log
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+*.zip
+
+# Private Pro code must never live in this repository
+/pro/
